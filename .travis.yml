@@ -5,4 +5,4 @@ jdk: openjdk8
 install: true
 
 script:
-- mvn -f com.prova.github/pom.xml clean verify -Pjacoco
+- mvn -f com.prova.github/pom.xml clean verify -Pjacoco coveralls:report
