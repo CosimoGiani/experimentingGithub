@@ -10,10 +10,10 @@ addons:
 
 install: true
 
-cache:
-   directories:
-      - $HOME/.m2
-      - $HOME/.sonar/cache
+#cache:
+ #  directories:
+  #    - $HOME/.m2
+   #   - $HOME/.sonar/cache
 
 script:
      - mvn -f com.prova.github/pom.xml -Pjacoco clean verify sonar:sonar
