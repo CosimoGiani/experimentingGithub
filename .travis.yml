@@ -4,8 +4,8 @@ jdk: openjdk8
 
 addons:
    sonarcloud:
-      organization: "cosimogiani-github"
-      token: $SONAR_TOKEN
+      organization: "cosimogiani"
+      #token: $SONAR_TOKEN
 
 install: true
 
