@@ -16,4 +16,4 @@ cache:
       - $HOME/.sonar/cache
 
 script:
-     - mvn -f com.prova.github/pom.xml -Pjacoco clean verify sonar:sonar -Dsonar.projectKey=CosimoGiani_experimentingGithub
+     - mvn -f com.prova.github/pom.xml -Pjacoco clean verify sonar:sonar
