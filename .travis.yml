@@ -4,7 +4,7 @@ jdk: openjdk8
 
 addons:
    sonarcloud:
-      organization: "cosimogiani"
+      organization: "cosimogiani-github"
       token: 
         secure: $SONAR_TOKEN
 
