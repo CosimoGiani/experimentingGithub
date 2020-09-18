@@ -21,4 +21,4 @@ cache:
       - $HOME/.sonar/cache
 
 script:
-     - mvn -f com.prova.github/pom.xml -Pjacoco clean verify coveralls:report -DrepoToken=$COVERALLS_REPO_TOKEN
+     - mvn -f com.prova.github/pom.xml -Pjacoco clean verify coveralls:report sonar:sonar
