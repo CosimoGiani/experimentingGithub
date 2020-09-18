@@ -23,6 +23,6 @@ cache:
 script:
      - mvn -f com.prova.github/pom.xml -Pjacoco clean verify coveralls:report sonar:sonar
 
-after_success:
-  - cd ..
-  - npm run coveralls
+#after_success:
+ # - cd ..
+  #- npm run coveralls
